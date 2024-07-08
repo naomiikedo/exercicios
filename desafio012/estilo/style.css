@@ -53,10 +53,26 @@ section.normal{
 section.imagem{
     background-color: rgba(6, 6, 6, 0.672);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.702) ;
+    background-attachment: fixed;
 }
 section.imagem>p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.502);
+    text-shadow: 1px 1px  0px black;
+}
+section>p{
+    padding-bottom: 2em;
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position:right center ;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
