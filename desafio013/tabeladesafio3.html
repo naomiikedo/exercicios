@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela desafio 3</title>
+    
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 400px;
+    }
+    caption{
+        font-weight: bold;
+    }
+    thead{
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        }
+    
+</style>
+<body>
+    <table>
+        <caption>
+            filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">grupo</th>
+                <th scope="col">nomes</th>
+                <th scope="col" rowspan="3">filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <th rowspan="3" scope="rowgroup">mulheres</th>
+            <td>ana maria</td>
+            <td>alien</td>
+            <td>rambo</td>
+            <td>vingadores</td>
+            <tr>
+                <td>beatriz souza</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>lord of rings</td>
+                <td>matriz</td>
+                <td>sherek</td>
+
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">homens</th>
+                <td>joao carlos</td>
+                <td>os incriveis</td>
+                <td>amargedon</td>
+                <td>amnezia</td>
+            </tr>
+            <tr>
+                <td>bruno mendonca</td>
+                <td>intocaveis</td>
+                <td>oldboy</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>fabio motta</td>
+                <td>star wars</td>
+                <td>taxi driver</td>
+                <td>toy story</td>
+            </tr>
+            
+        </tbody>
+       
+
+        
+    </table>
+    
+</body>
+</html>
